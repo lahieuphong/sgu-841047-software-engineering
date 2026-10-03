@@ -1,0 +1,20 @@
+# Local archives, duplicate projects, Git history, and private configuration.
+/.local-backups/
+
+# Installed dependencies and generated output.
+node_modules/
+build/
+dist/
+coverage/
+
+# Local environment configuration; retain placeholder-only examples.
+.env
+.env.*
+!.env.example
+
+# Operating-system metadata and temporary files.
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.log
